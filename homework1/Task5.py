@@ -74,7 +74,7 @@ while (True):
     Again = input("Повторить тест?")
     if(Again == 'да' or Again == 'Да'):
          continue
-    else (Again == 'Нет' or Again == 'нет'):
+    elif (Again == 'Нет' or Again == 'нет'):
         print ('Количество праивльных ответов: ', k)
         print("Спасибо за пройденный тест!")
         break
