@@ -2,11 +2,11 @@
 a = float(input('Введите первое число:'))
 b = float(input('Введите второе число:'))
 
-symbol = input('Введите знак:')
+sign = input('Введите знак:')
  
-if (symbol == '+'):
+if (sign == '+'):
 ...     print ('Сумма равна: ', a + b)
-... elif (symbol == '-'):
+... elif (sign == '-'):
 ...     print ('Разность равна: ', a-b)
 ... else:
 ...     print('Вы ввели неверный знак!')
